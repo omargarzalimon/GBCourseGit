@@ -63,16 +63,44 @@ p#studentName{
 
 img#progressMap{
 	width: 100%;
+
 }
+
+#progressBar{
+  height: 12px;
+}
+
 
 #progressBar .progress-bar{
-  background-color: #64A33D;
+  background-color: #278a3d;
 }
 
-#awardsTitle{
-    text-align: center;
+.progressTitle{
+  font-size: 21px;
+  color: #278a3d;
 }
 
+.progressRow{
+  background-color: #E4E4E4;
+  padding-top: 1rem;
+  padding-bottom: calc(1rem*1.25);
+}
+
+
+
+
+
+.awardTitle{
+  color: #AE3042;
+}
+
+.awardsList{
+  margin-top: calc(1rem*1.25);
+}
+
+.awardsList .media{
+  align-items: center;
+}
 
 
 #rankingTitle{
@@ -195,6 +223,8 @@ img#progressMap{
     border-bottom: 1px solid rgba(0,0,0,0.3);
   }
 
+  
+
   p#rankingTitle{
     text-align: center;
     margin-bottom: 15px;
@@ -273,17 +303,8 @@ img#progressMap{
     font-size: 26px;
   }
 
-  #progressMap{
-    
-  }
 
-  #progressBar{
-    height: 25px;
-  }
-
-  #awardsTitle{
-    font-size: 26px;
-  }
+ 
 
   .awardObjective{
     font-size: 23px;
