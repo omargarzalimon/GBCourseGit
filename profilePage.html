@@ -1,0 +1,479 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Profile</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css" >
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/profileStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Menu -->
+	
+	<nav class="navbar navbar-expand-lg navbar-light">
+	  	<a class="navbar-brand" href="#">
+	  		<img src="img/logoGB.png" width="95" height="50">
+	  	</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+
+	 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item active">
+	        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="#">Library</a>
+	      		</li>
+	      <!-- <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li> -->
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="#">Foroum</a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="#">Contact</a>
+		      	</li>
+		    </ul>
+		    <div class="logBtn">
+		    	<button type="button" class="btn btn-link" data-toggle="modal" data-target="#loginModal">Log In</button>
+		    </div>
+		    <div class="logBtn">
+		    	<button type="button" class="btn btn-link" data-toggle="modal" data-target="#signModal">Sign Up</button>
+		    </div>
+		</div>
+	</nav>
+
+	<!-- Menu End -->
+
+ 
+<div class="container-fluid text-center">    
+ 	<div class="row content">
+ 		<!-- Custom Profile -->
+	    <div id="leftSection" class="col-sm-2 align-bottom">
+		    <div id="avatarStudentSection" class="row">
+		    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		    		<img id="avatarStudent" class="mx-auto mt-2 mb-2" src="img/avatar_student.png">
+		    	</div>
+		    </div>
+			<div class="row">
+				<div id="studentNameSection" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 py-2">
+					<p id="studentName" class="font-weight-bold text-center mb-0">Omar Salvador Garza Limón</p>
+					<p id="studentNick"> @OGLimon</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 py-2 scoreSection">
+					<p id="scoreTitle" class="text-center mb-0 py-2">Score</p>
+					<p id="studentScore" class="mb-0 font-weight-bold"> 999,9999</p>
+				</div>
+			</div>
+		</div>
+	    <!-- Custom Profile End -->
+    	<div id="middleSection" class="col-sm-8 text-left"> 
+    		<!-- Progress Map -->
+			<a href="temaryPage.html"><img id="progressMap" class="mx-auto" src="img/map.jpg"></a>
+			<!-- Progress Bar -->
+			<div id="progressBar" class="progress mt-4 mb-4">
+			  	<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%"></div>
+			</div>
+			<!-- Progress Bar End -->
+
+			<p id="awardsTitle">Awards</p>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<ul class="list-unstyled ">
+					  <li class="media">
+					    <img class=" align-self-center mr-3" src="img/profile/trophy.png">
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">List-based media object</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					  <li class="media my-4">
+					    <img class=" align-self-center mr-3" src="img/profile/trophy.png">
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">List-based media object</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					  <li class="media">
+					    <img class=" align-self-center mr-3" src="img/profile/trophy.png">
+					    <div class="media-body">
+					      <h5 class="mt-0 mb-1">List-based media object</h5>
+					      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+					    </div>
+					  </li>
+					</ul>
+				</div>
+				
+			</div>
+			
+		    <!-- <div class="list-group">
+		    	<a href="#" class="list-group-item list-group-item-action flex-column align-items-center ">
+				    <div class="d-flex w-100 justify-content-between align-items-center">
+				    	<div style="width: 14%" class="float-left">
+				  			<img src="img/profile/trophy.png" style="width: 100%;">
+				  		</div>
+				    	<h5 class="awardObjective mb-0 ml-2" text-center>First module finished.</h5>
+				    	<h3>ldjaskjddasdasasasasdasdasd</h3>
+				      	<span class="txtPoints">100 beercoins</span>
+				    </div>
+				</a>
+				<a href="#" class="list-group-item list-group-item-action flex-column align-items-center ">
+				    <div class="d-flex w-100 justify-content-between align-items-center">
+				    	<div style="width: 14%" class="float-left">
+				  			<img src="img/profile/trophy.png" style="width: 100%;">
+				  		</div>
+				      	<h5 class="awardObjective mb-0 ml-2" text-center>First module finished.</h5>
+				      	<span class="txtPoints badge badge-pill">100 beercoins</span>
+				    </div>
+				</a>
+				<a href="#" class="list-group-item list-group-item-action flex-column align-items-center ">
+				    <div class="d-flex w-100 justify-content-between align-items-center">
+				    	<div style="width: 14%" class="float-left">
+				  			<img src="img/profile/trophy.png" style="width: 100%;">
+				  		</div>
+				      	<h5 class="awardObjective mb-0 ml-2" text-center>First module finished.</h5>
+				      	<span class="txtPoints badge badge-pill">100 beercoins</span>
+				    </div>
+				</a>
+				<a href="#" class="list-group-item list-group-item-action flex-column align-items-center ">
+				    <div class="d-flex w-100 justify-content-between align-items-center">
+				    	<div style="width: 14%" class="float-left">
+				  			<img src="img/profile/trophy.png" style="width: 100%;">
+				  		</div>
+				      	<h5 class="awardObjective mb-0 ml-2" text-center>First module finished.</h5>
+				      	<span class="txtPoints badge badge-pill">100 beercoins</span>
+				    </div>
+				</a>
+				<a href="#" class="list-group-item list-group-item-action flex-column align-items-center ">
+				    <div class="d-flex w-100 justify-content-between align-items-center">
+				    	<div style="width: 14%" class="float-left">
+				  			<img src="img/profile/trophy.png" style="width: 100%;">
+				  		</div>
+				      	<h5 class="awardObjective mb-0 ml-2" text-center>First module finished.</h5>
+				      	<span class="txtPoints badge badge-pill">100 beercoins</span>
+				    </div>
+				</a>
+				<a href="#" class="list-group-item list-group-item-action flex-column align-items-center ">
+				    <div class="d-flex w-100 justify-content-between align-items-center">
+				    	<div style="width: 14%" class="float-left">
+				  			<img src="img/profile/trophy.png" style="width: 100%;">
+				  		</div>
+				      	<h5 class="awardObjective mb-0 ml-2" text-center>First module finished.</h5>
+				      	<span class="txtPoints badge badge-pill">100 beercoins</span>
+				    </div>
+				</a>
+			</div> -->
+		</div><!-- Middle Section -->
+	    <div class="col-sm-2 sidenav">
+	    	<p id="rankingTitle" class="font-weight-bold">RANKING</p>
+	      	<div id="ranking" class="row">
+	      		<div class="col-sm-12">
+	      			<ul class="list-unstyled listRanking">
+				  		<li class="media mb-3 pb-2">
+				  			<div class="divPlaces">
+				  				<img class="firstPlaces" src="img/profile/award1.png">
+				  			</div>
+				    		
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold firstPlaceScore">300,200</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+				  		<li class="media  my-3 pb-2">
+				    		<div class="divPlaces">
+				  				<img class="firstPlaces" src="img/profile/award2.png">
+				  			</div>
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold secondPlaceScore">280,500</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+				  		<li class="media  my-3 pb-2">
+				    		<div class="divPlaces">
+				  				<img class="firstPlaces" src="img/profile/award3.png">
+				  			</div>
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold thirdPlaceScore">150,800</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+				  		<li class="media my-3 pb-2">
+				    		<div class="divPlaces">
+				  				<img class="places" src="img/profile/award4.png">
+				  			</div>
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold placeScore">70,600</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+				  		<li class="media my-3 pb-2">
+				    		<div class="divPlaces">
+				  				<img class="places" src="img/profile/award5.png">
+				  			</div>
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold placeScore">20,300</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+				  		<li class="media my-3 pb-2">
+				    		<div class="divPlaces">
+				  				<img class="places" src="img/profile/award6.png">
+				  			</div>
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold placeScore">5,500</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+				  		<li class="media my-3 pb-2">
+				    		<div class="divPlaces">
+				  				<img class="places" src="img/profile/award7.png">
+				  			</div>
+				    		<div class="media-body text-left">
+				      			<p class="mt-0 mb-0 font-weight-bold placeScore">2,200</p>
+				      			<p class="userTag mb-0"> @OGL91</p>
+				    		</div>
+				  		</li>
+					</ul>
+	      		</div>
+	      	</div>
+	    </div><!-- SideNav Right -->
+  	</div><!-- Row Content -->
+</div><!-- Container-fluid -->
+
+<footer class=" mt-3">
+	<div class="container-fluid mx-0 align-items-center">
+		<!-- <div class="row text-center">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<img src="img/footer.jpg" class="imgMountains" alt="Image">
+			</div>
+			
+		</div> -->
+		
+		<div class="row linksRow">
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<img src="img/logoLogin.png" class="ml-3 imgFooter"  alt="Image">
+				<a class="linkFooter mx-3" href="#">Coach Access</a>
+				<a class="linkFooter mx-3" href="#">What is LSS?</a>
+				<a class="linkFooter mx-3" href="#">FAQs</a>
+				<a class="linkFooter mx-3" href="#">Contact</a>
+				<a class="linkFooter mx-3" href="#">Privacy Policy</a>
+				
+			</div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+				<span class="copyright">&#x24B8; 2018 Anheuser-Busch InBev All rights reserved.</span>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- Modals -->
+<div class="modal fade " id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+  	<div class="modal-dialog modal-dialog-centered" role="document">
+    	<div class="modal-content rounded-0">
+      		<div class="modal-header border-bottom-0">
+        		<img class="mx-auto" src="img/logoLogin.png">
+      		</div>
+      		<div class="modal-body text-center p-0">
+    			<input type="email" name="" id="inputEmailLog" class="form-control my-2 inputLog mx-auto w-75" value="" required="required" title="" placeholder="ID SAP">
+    			<input type="password" name="" id="inputPassLog" class="form-control my-2 inputLog mx-auto w-75" required="required" title="" placeholder="Password">
+    			<button type="button" class="btn w-75 rounded-0 mt-2">Login</button>
+      		</div>
+      		<div class="modal-footer w-75 mx-auto p-0 mt-2">
+      			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left p-0">
+      				<button type="button" class="btn btn-link">Sign Up</button>
+      			</div>
+      		</div>
+    	</div>
+  	</div>
+</div><!-- Modal Log -->
+<div class="modal fade bd-example-modal-lg" id="signModal" tabindex="-1" role="dialog" aria-labelledby="signModal" aria-hidden="true">
+  	<div class="modal-dialog modal-lg modal-dialog-centered">
+    	<div class="modal-content rounded-0">
+    		<div class="modal-header border-bottom-0">
+				<img class="mx-auto" src="img/logoSign.png">
+			</div>
+    
+		    <div class="modal-body text-center p-0">
+		    	<div class="form-row">
+				    <div class="form-group col-md-6">
+				      <!-- <label for="inputEmail4">Email</label> -->
+				      	<input type="text" class="form-control inputLog" id="inputNameSign" placeholder="Name">
+				    </div>
+				    <div class="form-group col-md-6">
+				      <!-- <label for="inputPassword4">Password</label> -->
+				      	<input type="text" class="form-control inputLog" id="inputLastSign" placeholder="Last name">
+				    </div>
+				</div>
+				<div class="form-row">
+				  	<div class="form-group col-md-6">
+				  	 	<input type="number" class="form-control inputLog" id="inputSAPSign" placeholder="ID SAP">
+				  	</div>
+					<div class="form-group col-md-6">
+						<div class="input-group mb-0">
+						  	<div class="input-group-prepend">
+						    	<span class="input-group-text" id="detailUser">@</span>
+						  	</div>
+						  	<input type="text" class="form-control inputLog pl-0" placeholder="User" aria-label="user" aria-describedby="basic-addon1">
+						</div>
+					</div>
+				</div>
+				<div class="form-row align-items-center">
+					<div class="form-group col-md-6 " >
+					  	<div class="input-group mb-3">
+						  	<div class="input-group-prepend">
+						    	<span class="input-group-text" id="detailGender">Gender</span>
+						  	</div>
+						  	<div class="custom-control custom-radio custom-control-inline align-items-center">
+							  	<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+							  	<label class="custom-control-label" for="customRadioInline1">Male</label>
+							</div>
+							<div class="custom-control custom-radio custom-control-inline align-items-center">
+							  	<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+							  	<label class="custom-control-label" for="customRadioInline2">Female</label>
+							</div>
+						</div>
+				    </div>
+				 	<div class="form-group col-md-6 " >
+					  	<div class="input-group mb-3">
+						  	<div class="input-group-prepend">
+						    	<span class="input-group-text" id="detailGender">Birthdate</span>
+						  	</div>
+						  	<div class="dropdown mr-4">
+							  	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	M
+							  	</button>
+							  	<div class="dropdown-menu customClassForDropDown" aria-labelledby="dropdownMenuButton">
+								    <a class="dropdown-item" href="#">1</a>
+								    <a class="dropdown-item" href="#">2</a>
+								    <a class="dropdown-item" href="#">3</a>
+								    <a class="dropdown-item" href="#">4</a>
+								    <a class="dropdown-item" href="#">5</a>
+								    <a class="dropdown-item" href="#">6</a>
+								    <a class="dropdown-item" href="#">7</a>
+								    <a class="dropdown-item" href="#">8</a>
+								    <a class="dropdown-item" href="#">9</a>
+								    <a class="dropdown-item" href="#">10</a>
+								    <a class="dropdown-item" href="#">11</a>
+								    <a class="dropdown-item" href="#">12</a>
+							  	</div>
+							</div>
+							<div class="dropdown  mr-4">
+							  	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	D
+							  	</button>
+							  	<div class="dropdown-menu customClassForDropDown" aria-labelledby="dropdownMenuButton">
+							    	<a class="dropdown-item" href="#">1</a>
+							    	<a class="dropdown-item" href="#">2</a>
+								    <a class="dropdown-item" href="#">3</a>
+								    <a class="dropdown-item" href="#">4</a>
+								    <a class="dropdown-item" href="#">5</a>
+								    <a class="dropdown-item" href="#">6</a>
+								    <a class="dropdown-item" href="#">7</a>
+								    <a class="dropdown-item" href="#">8</a>
+								    <a class="dropdown-item" href="#">9</a>
+								    <a class="dropdown-item" href="#">10</a>
+							  	</div>
+							</div>
+							<div class="dropdown  mr-4">
+							  	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    	Y
+							  	</button>
+							  	<div class="dropdown-menu customClassForDropDown" aria-labelledby="dropdownMenuButton">
+								    <a class="dropdown-item" href="#">1</a>
+								    <a class="dropdown-item" href="#">2</a>
+								    <a class="dropdown-item" href="#">3</a>
+								    <a class="dropdown-item" href="#">4</a>
+								    <a class="dropdown-item" href="#">5</a>
+								    <a class="dropdown-item" href="#">6</a>
+								    <a class="dropdown-item" href="#">7</a>
+								    <a class="dropdown-item" href="#">8</a>
+								    <a class="dropdown-item" href="#">9</a>
+								    <a class="dropdown-item" href="#">10</a>
+								    <a class="dropdown-item" href="#">11</a>
+								    <a class="dropdown-item" href="#">12</a>
+							  	</div>
+							</div>
+						</div>
+				 	</div>
+				</div>
+				<div class="form-row">
+				    <div class="form-group col-md-6">
+				      <!-- <label for="inputEmail4">Email</label> -->
+				      <div class="dropdown">
+							  <button class="btn dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Select your zone
+							  </button>
+							  <div class="dropdown-menu customClassForDropDown" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							  </div>
+							</div>
+				    </div>
+				    <div class="form-group col-md-6">
+				      <!-- <label for="inputPassword4">Password</label> -->
+				      <div class="dropdown">
+							  <button class="btn dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    Actual color belt
+							  </button>
+							  <div class="dropdown-menu customClassForDropDown" aria-labelledby="dropdownMenuButton">
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							    <a class="dropdown-item" href="#">Action</a>
+							    <a class="dropdown-item" href="#">Another action</a>
+							    <a class="dropdown-item" href="#">Something else here</a>
+							  </div>
+							</div>
+				    </div>
+				</div>
+				<div class="form-row">
+				    <div class="form-group col-md-6">
+				      <!-- <label for="inputEmail4">Email</label> -->
+				      <input type="text" class="form-control inputLog" id="inputPassword" placeholder="Password">
+				    </div>
+				    <div class="form-group col-md-6">
+				      <!-- <label for="inputPassword4">Password</label> -->
+				      <input type="text" class="form-control inputLog" id="inputConfirm" placeholder="Confirm password">
+				    </div>
+				</div>
+				<button type="button" class="btn w-50 rounded-0 mt-2">Sign Up</button>
+			</div><!-- Modal Body -->	  
+		</div><!-- Modal Content -->
+    </div><!-- Modal Dialog -->
+</div><!-- Modal Sign -->
+
+
+<!-- Modals End -->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/prueba.js"></script>
+</body>
+</html>

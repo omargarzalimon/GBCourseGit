@@ -1,0 +1,321 @@
+body {
+  margin-bottom: 82px;/*  Margin bottom by footer height */
+  /*font-family: 'Barlow','Trebuchet MS', sans-serif; 
+  background-color: #f5f5f5;*/
+  
+}
+
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 100%}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+
+}
+
+
+
+p#studentName{
+  font-size: 25px;
+  color: #64A33D;
+}
+
+#studentNameSection{
+  background-color: #575757;
+}
+
+#avatarStudent{
+	width: 100%;
+}
+
+#studentNick{
+  color: #B8B8B8;
+}
+
+#scoreTitle{
+  color: #647669;
+}
+
+#studentScore{
+  color: #64A33D;
+}
+
+.scoreSection{
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+
+#middleSection{
+	padding-top: 20px;
+  background-color: #f5f5f5;
+  border-right: 1px solid rgba(0,0,0,0.3);
+  border-left: 1px solid rgba(0,0,0,0.3);
+  padding-bottom: 10px;
+}
+
+#mapTitle{
+  font-size: 25px;
+  color: #64A33D;
+}
+
+img#progressMap{
+	width: 100%;
+}
+
+#progressBar .progress-bar{
+  background-color: #64A33D;
+}
+
+#awardsTitle{
+    text-align: center;
+}
+
+
+
+#rankingTitle{
+  font-size: 25px;
+  color: #AE3042;
+  padding-left: 15px;
+  text-align: left;
+  margin-bottom: 15px;
+
+}
+
+#ranking{
+  color: #D68500;
+}
+
+.firstPlaces{
+  width: 100% !important;
+}
+
+.places{
+  width: 85% !important;
+
+}
+
+#ranking .list-unstyled .media{
+  border-bottom: 1px solid  rgba(0,0,0,0.3);
+  align-items: center;
+
+}
+
+#ranking .list-unstyled.listRanking .media .media-body{
+  font-size: 22px;
+}
+
+#ranking .list-unstyled .media .media-body .firstPlaceScore{
+  color: #64a33d;
+  line-height: 1rem;
+}
+
+#ranking .list-unstyled .media .media-body .secondPlaceScore{
+  color: #d68500;
+  line-height: 1rem;
+}
+
+#ranking .list-unstyled .media .media-body .thirdPlaceScore{
+  color: #c6613f;
+  line-height: 1rem;
+}
+
+#ranking .list-unstyled .media .media-body .placeScore{
+  color: #647669;
+  font-size: 18px;
+  line-height: 1rem;
+}
+
+#ranking .list-unstyled .media .media-body .userTag{
+  color: #93a698;
+  font-size: 15px;
+}
+
+.divPlaces{
+  width: 32%;
+  margin-right: 15px;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+    
+/* Set black background color, white text and some padding */
+/*footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}*/
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  body {
+    margin-bottom: 210px;/*  Margin bottom by footer height */
+  }
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {height:auto;} 
+
+  img#avatarStudent{
+  	width: 30%;
+  }
+
+  img#avatarTigre{
+  	width: 70%;
+  	vertical-align: bottom!important;
+  }
+
+  #ranking{
+  	/*padding: 15px;*/
+    font-size: 22px;
+  }
+
+  p.places{
+  	text-align: right;
+  	padding-right: 5%;
+  }
+
+  p.scores{
+  	text-align: left;
+  	padding-left: 10%;
+  }
+
+  #middleSection{
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+  }
+
+  p#rankingTitle{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .list-unstyled.listRanking{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .divPlaces{
+    width: 35%;
+  }
+
+
+}
+
+@media screen and (min-width: 800px) {
+  p#studentName{
+    font-size: 21px;
+  }
+
+  #mapTitle{
+    font-size: 21px;
+  }
+
+  #rankingTitle{
+    font-size: 21px;
+  }
+
+
+  #ranking{
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  p#studentName{
+    font-size: 22px;
+  }
+
+  #mapTitle{
+    font-size: 22px;
+  }
+
+  #rankingTitle{
+    font-size: 22px;
+  }
+
+  #ranking{
+    font-size: 23px;
+  }
+}
+
+
+@media screen and (min-width: 1365px) {
+  p#studentName{
+    font-size: 26px;
+  }
+
+  #avatarStudent{
+    width: 60%;
+  }
+
+  #scoreTitle{
+    font-size: 22px;
+  }
+
+  #studentScore{
+    font-size: 26px;
+  }
+
+  #mapTitle{
+    font-size: 26px;
+  }
+
+  #progressMap{
+    
+  }
+
+  #progressBar{
+    height: 25px;
+  }
+
+  #awardsTitle{
+    font-size: 26px;
+  }
+
+  .awardObjective{
+    font-size: 23px;
+  }
+
+  .txtPoints{
+    font-size: 16px;
+  }
+
+  #rankingTitle{
+    font-size: 26px;
+  }
+
+  #ranking{
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 1910px) {
+  p#studentName{
+    font-size: 32px;
+  }
+
+  #mapTitle{
+    font-size: 32px;
+  }
+
+  #rankingTitle{
+    font-size: 32px;
+  }
+
+  #ranking{
+    font-size: 28px;
+  }
+}
