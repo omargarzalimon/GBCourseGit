@@ -11,15 +11,16 @@ a{
 p.faqsTitle{
 font-size:20px
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #212529;
-    background-color:#f5f5f5;
+
+.nav-pills .nav-link.active {
+    color: #64a33d;
+    background-color: #f5f5f5;
 }
 .nav-pills a:hover{
 color:#64a33d;
 }
-.nav-pills a{
-	background-color:none; 
-}
+/*.nav-pills a{
+	background-color:#64a33d; 
+}-->*/
 
  

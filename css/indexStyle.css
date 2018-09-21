@@ -1,0 +1,47 @@
+
+
+@media screen and (max-width: 767px) {
+.car .foy:display{
+	 vertical-align:middle;position: absolute;top:50%;margin-top: -95;
+
+
+}
+.car .foy h5{
+  font-size:20%;
+
+}
+.car .foy p{
+	font-size:15%;
+}
+}
+
+
+
+.cardsList .card .card-img{
+
+filter: grayscale(100%);
+
+-webkit-filter: grayscale(100%);
+
+}
+/*.card-img{
+
+filter: grayscale(100%);
+
+-webkit-filter: grayscale(100%);
+
+transition:filter 0.4s;
+
+-webkit-transition:-webkit-filter 1s;
+
+}*/
+.cardsList .card .card-img:hover {
+
+filter: grayscale(0);
+
+-webkit-filter: grayscale(0);
+transition:filter 0.4s;
+
+-webkit-transition:-webkit-filter 1s;
+}
+

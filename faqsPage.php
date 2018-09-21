@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/faqsStyle.css">
 
-
+<title>Frequent Questions</title>
 </head>
 <style type="text/css">
 div.midiv {
@@ -51,7 +51,7 @@ div.midiv1{
           <a class="nav-link" href="#">Foroum</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contactPage.php">Contact</a>
         </li>
       </ul>
       <div class="logBtn">
@@ -82,17 +82,17 @@ div.midiv1{
     <div class="tab-content" id="v-pills-tabContent">
       <br>
       <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab "><p class="font-weight-bold faqsTitle">¿How do I get points?</p>
-        <p align="justify">Lorem ipsum dolor sit amet consectetur adipiscing elit, libero scelerisque ullamcorper auctor netus fermentum habitant, justo potenti vivamus aliquam cursus fringilla magnis, varius eget risus class mus bibendum. At suscipit lacus fames tellus cras potenti vulputate sollicitudin nostra, magna taciti enim turpis dui ullamcorper ultricies mauris ut, consequat quisque volutpat pharetra varius mollis class pretium. Sed volutpat purus enim potenti ac tellus habitant ridiculus nunc nec, dignissim vehicula inceptos sollicitudin magnis quam curabitur dapibus conubia tempus lectus, tincidunt leo bibendum dis ad laoreet molestie eros nisl.
+        <p align="justify" style="color:#C4C0BF">Lorem ipsum dolor sit amet consectetur adipiscing elit, libero scelerisque ullamcorper auctor netus fermentum habitant, justo potenti vivamus aliquam cursus fringilla magnis, varius eget risus class mus bibendum. At suscipit lacus fames tellus cras potenti vulputate sollicitudin nostra, magna taciti enim turpis dui ullamcorper ultricies mauris ut, consequat quisque volutpat pharetra varius mollis class pretium. Sed volutpat purus enim potenti ac tellus habitant ridiculus nunc nec, dignissim vehicula inceptos sollicitudin magnis quam curabitur dapibus conubia tempus lectus, tincidunt leo bibendum dis ad laoreet molestie eros nisl.
       Faucibus lacinia iaculis ac nascetur nisi massa netus semper, quam eget potenti felis neque placerat fames. Diam vitae lobortis blandit bibendum aliquet nullam faucibus viverra proin, augue aptent volutpat natoque aenean felis a libero, tellus est vivamus non platea ornare ligula feugiat. Tempor pulvinar sed tortor aenean eros, nullam id elementum erat.</p></div>
       <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><p class="font-weight-bold faqsTitle">¿What are the beercoins?</p>
-        <p align="justify">Semper metus aliquam sollicitudin auctor non venenatis nunc lectus erat tristique, orci tellus fringilla nisl consequat pulvinar cras enim fermentum inceptos, laoreet cursus proin vitae fames suspendisse malesuada ante at. Montes lacus fames torquent egestas dictumst feugiat auctor vivamus condimentum ac, penatibus himenaeos mi diam potenti sollicitudin euismod eget ut tortor nisi, aptent arcu accumsan mollis eu est sapien dictum parturient. Urna sapien cum platea class risus litora etiam nascetur potenti quam id primis maecenas, pharetra netus sed integer commodo metus tortor varius dictumst habitant volutpat.</p></div>
+        <p align="justify" style="color:#C4C0BF">Semper metus aliquam sollicitudin auctor non venenatis nunc lectus erat tristique, orci tellus fringilla nisl consequat pulvinar cras enim fermentum inceptos, laoreet cursus proin vitae fames suspendisse malesuada ante at. Montes lacus fames torquent egestas dictumst feugiat auctor vivamus condimentum ac, penatibus himenaeos mi diam potenti sollicitudin euismod eget ut tortor nisi, aptent arcu accumsan mollis eu est sapien dictum parturient. Urna sapien cum platea class risus litora etiam nascetur potenti quam id primis maecenas, pharetra netus sed integer commodo metus tortor varius dictumst habitant volutpat.</p></div>
       <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><p class="font-weight-bold faqsTitle">¿Are there personalized advice?</p>
-        <p align="justify">Going back to the 1960s, the Lorem Ipsum was popularized by the letterpress manufacturer Letraset, which used it in its advertising campaigns. Letraset offered pages of Lorem Ipsum as transfer sheets, which were widely used in the era before computers for designs. These transfer pages, known as Letraset Body Type, were included in the company's advertising and in its popular catalog.
+        <p align="justify" style="color:#C4C0BF">Going back to the 1960s, the Lorem Ipsum was popularized by the letterpress manufacturer Letraset, which used it in its advertising campaigns. Letraset offered pages of Lorem Ipsum as transfer sheets, which were widely used in the era before computers for designs. These transfer pages, known as Letraset Body Type, were included in the company's advertising and in its popular catalog.
 
       The Lorem Ipsum was reintroduced in the 1980s by Aldus Corporation, a company that developed Desktop Publishing Software. Your best-known PageMaker product comes with graphics and pre-installed word processing templates that contain a fake Latin language version.
       </p></div>
       <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"><p class="font-weight-bold faqsTitle">¿How do I recover my password?</p>
-        <p align="justify">This generator uses a Latin word dictionary to build Lorem Ipsum text passages that match your desired length. The duration and punctuation of the sentence and the paragraph are calculated using a Gaussian distribution, based on analysis of real world texts. This ensures that the generated Lorem Ipsum text is unique, free of repetitions and also looks like a legible text as much as possible.
+        <p align="justify" style="color:#C4C0BF">This generator uses a Latin word dictionary to build Lorem Ipsum text passages that match your desired length. The duration and punctuation of the sentence and the paragraph are calculated using a Gaussian distribution, based on analysis of real world texts. This ensures that the generated Lorem Ipsum text is unique, free of repetitions and also looks like a legible text as much as possible.
 
        If you are comfortable with the terminal, you can also install this generator as a command line application. As long as you have Node.js installed, simply run the following command to install it:
       </p></div>
@@ -115,10 +115,10 @@ div.midiv1{
       <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
         <img src="img/logo_belts_login.png" class="ml-3 imgFooter"  alt="Image">
         <a class="linkFooter mx-3" href="#">Coach Access</a>
-        <a class="linkFooter mx-3" href="#">What is LSS?</a>
-        <a class="linkFooter mx-3" href="#">FAQs</a>
-        <a class="linkFooter mx-3" href="#">Contact</a>
-        <a class="linkFooter mx-3" href="#">Privacy Policy</a>
+        <a class="linkFooter mx-3" href="LssPage.html">What is LSS?</a>
+        <a class="linkFooter mx-3" href="faqsPage.php">FAQs</a>
+        <a class="linkFooter mx-3" href="contactPage.php">Contact</a>
+        <a class="linkFooter mx-3" href="privacyPage.html">Privacy Policy</a>
         
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">

@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
-
+<link rel="stylesheet" href="css/indexStyle.css">
+<title>Green Belt Course</title>
 </head>
 <style type="text/css">
 div.midiv {
@@ -36,22 +37,11 @@ div.midiv1{
         <li class="nav-item">
           <a class="nav-link" href="#">Library</a>
         </li>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#">Foroum</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contactPage.php">Contact</a>
         </li>
       </ul>
       <div class="logBtn">
@@ -79,14 +69,14 @@ div.midiv1{
   </div>
 </div>
   <!--Carousel End-->
-  <div class="card container-fluid" style="width:100%">
+  <div class="card container-fluid">
       <img class="card-img " src="img/slider2home.png" alt="Card image">
-      <div class="card-img-overlay mx-auto  align-items-center" style="width:40%">
-         <div class="mx-auto" style="width:50%" >
-        <h5 class="card-title text-left" style="line-height:75px;color:#64A33D;font-size:50px">Be the best leader!</h5>
-        <p class="text-left" style="line-height:35px;font-size:20px;">Optimize your processes.</p>
-        <p class="text-left" style="line-height:35px;font-size:20px;">Analyze and solve quality problems.</p>
-        <p class="text-left" style="line-height:35px;font-size:20px;">Get better reults.</p>
+      <div class="card-img-overlay"style="display: table-cell;vertical-align:middle;position: absolute;top:50%;margin-top: -95;">
+         <div class="mx-auto" >
+        <h5 class="card-title text-center" style="color:#64A33D;font-size:40px">Be the best leader!</h5>
+        <p class="text-center mb-0" style="font-size:20px;">Optimize your processes.</p>
+        <p class="text-center mb-0"style="font-size:20px;" >Analyze and solve quality problems.</p>
+        <p class="text-center mb-0" style="font-size:20px;">Get better reults.</p>
 
       </div>
        
@@ -101,9 +91,9 @@ div.midiv1{
    </div> 
  </div>
 
-  <div class="card-columns">
+  <div class="card-columns cardsList">
   <div class="card">
-    <img class="card-img-top mx-auto" src="img/imgfq.png" alt="Card image cap" style="width:50% " >
+    <img class="card-img mx-auto" src="img/imgfq.png" alt="Card image cap" style="width:50% " >
     <div class="card-body">
          <div class="row">
             <div class="col-3">
@@ -119,7 +109,7 @@ div.midiv1{
     </div>
   </div>
   <div class="card">
-    <img class="card-img-top mx-auto" src="img/imgfq.png" alt="Card image cap" style="width:50% ">
+    <img class="card-img mx-auto" src="img/imgfq.png" alt="Card image cap" style="width:50% ">
     <div class="card-body">
         <div class="row">
             <div class="col-3">
@@ -151,7 +141,7 @@ div.midiv1{
     </div>
   </div>
    <div class="card">
-    <img class="card-img mx-auto" src="img/imgfq.png" alt="Card image" style="width:70%" >
+    <img class="card-img mx-auto " src="img/imgfq.png" alt="Card image" style="width:70%" >
     <div class="card-body">
            <div class="row">
             <div class="col-3">
@@ -216,10 +206,10 @@ div.midiv1{
       <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
         <img src="img/logo_belts_login.png" class="ml-3 imgFooter"  alt="Image">
         <a class="linkFooter mx-3" href="#">Coach Access</a>
-        <a class="linkFooter mx-3" href="#">What is LSS?</a>
-        <a class="linkFooter mx-3" href="#">FAQs</a>
-        <a class="linkFooter mx-3" href="contacPage.php">Contact</a>
-        <a class="linkFooter mx-3" href="#">Privacy Policy</a>
+        <a class="linkFooter mx-3" href="LssPage.html">What is LSS?</a>
+        <a class="linkFooter mx-3" href="faqsPage.php">FAQs</a>
+        <a class="linkFooter mx-3" href="contactPage.php">Contact</a>
+        <a class="linkFooter mx-3" href="privacyPage.html">Privacy Policy</a>
         
       </div>
       <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
