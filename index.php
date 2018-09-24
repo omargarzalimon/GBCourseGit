@@ -204,7 +204,7 @@ div.midiv1{
     
     <div class="row linksRow">
       <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-        <img src="img/logo_belts_login.png" class="ml-3 imgFooter"  alt="Image">
+        <img src="img/logoLogin.png" class="ml-3 imgFooter"  alt="Image">
         <a class="linkFooter mx-3" href="#">Coach Access</a>
         <a class="linkFooter mx-3" href="LssPage.html">What is LSS?</a>
         <a class="linkFooter mx-3" href="faqsPage.php">FAQs</a>
