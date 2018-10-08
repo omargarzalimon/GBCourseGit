@@ -19,22 +19,30 @@ div.midiv1{
 </style>
   <body>
  <!-- Menu -->
+  
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="index.php">
-      <img src="img/logoGB.png" width="95" height="50">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <a class="navbar-brand" href="index.php">
+        <img src="img/logoGB.png" width="95" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Library</a>
-        </li>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="profilePage.html">Profile</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="temaryPage.html">Temary</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="#">Library</a>
+          
+            </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown
@@ -46,16 +54,22 @@ div.midiv1{
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li> -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Foroum</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contactPage.php">Contact</a>
-        </li>
-      </ul>
-      <div class="logBtn">
-        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#signModal">My Account</button>
-      </div>
+            <li class="nav-item">
+              <a class="nav-link" href="foroumDetail.html">Foroum</a>
+            </li>
+            <li class="nav-item  active">
+              <a class="nav-link" href="contactPage.php">Contact</a>
+            </li>
+        </ul>
+        <div class="logBtn">
+          <button type="button" class="btn btn-link pr-0">My Account</button>
+        </div>
+        <!-- <div class="logBtn">
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#loginModal">Log In</button>
+        </div> -->
+        <!-- <div class="logBtn">
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#signModal">Sign Up</button>
+        </div> -->
     </div>
   </nav>
   <!--nav end-->
