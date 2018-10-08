@@ -15,9 +15,6 @@ div.midiv {
 div.midiv1{
   background-color: #D68500;
 }
-
-
-
 </style>
   <body>
  <!-- Menu -->
@@ -69,27 +66,20 @@ div.midiv1{
   </div>
 </div>
   <!--Carousel End-->
-  <div class="card container-fluid">
-      <img class="card-img " src="img/slider2home.png" alt="Card image">
-      <div class="card-img-overlay"style="display: table-cell;vertical-align:middle;position: absolute;top:50%;margin-top: -95;">
-         <div class="mx-auto" >
-        <h5 class="card-title text-center" style="color:#64A33D;font-size:40px">Be the best leader!</h5>
-        <p class="text-center mb-0" style="font-size:20px;">Optimize your processes.</p>
-        <p class="text-center mb-0"style="font-size:20px;" >Analyze and solve quality problems.</p>
-        <p class="text-center mb-0" style="font-size:20px;">Get better reults.</p>
-
+ 
+  <div class="card container-fluid" >
+    <div class="row" >
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-right:0px; padding-left:0px">
+        <img class="photo img-fluid" style="width:100%" src="img/homeTigerBeercoins.jpg" alt="Card image">
       </div>
-       
-       </div>
+      
+    </div>
 
 </div>
-  <div class="container-fluid text-center "> <!--Conteiner-->
 
-  <div class="row">
-   <div class="col-sm-12">
-     <img class="img-fluid" src="img/beercoins.jpg">
-   </div> 
- </div>
+
+  <div class="container-fluid text-center mt-3"> <!--Conteiner-->
+
 
   <div class="card-columns cardsList">
   <div class="card">
