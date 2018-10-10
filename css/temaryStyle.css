@@ -1,5 +1,6 @@
 body {
   margin-bottom: 210px;/*  Margin bottom by footer height */
+
 }
 
 .temaryTitle{
@@ -10,7 +11,7 @@ body {
 
 .temaryColumn{
 	border-top: 1px solid #647669;
-	color: #647669;
+	color: #B8B8B8;
 	padding-top: 1rem;
 	margin-bottom: 1rem;
 }

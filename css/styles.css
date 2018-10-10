@@ -20,11 +20,15 @@ body {
 
 .navbar-light .navbar-nav .nav-link {
 	color: #647669;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .navbar-light .navbar-nav .nav-item.active .nav-link {
 	color: #64A33D;
+}
+
+.nav-item{
+	margin-left: 10px;
 }
 
 div.logBtn{
@@ -175,6 +179,10 @@ footer img.imgFooter{
 	box-shadow: none;
 }
 
+#detailBirth{
+  background-color: #fff;
+  border: 0;
+}
 
 @media screen and (max-width: 767px) {
 	
