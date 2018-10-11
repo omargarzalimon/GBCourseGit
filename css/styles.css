@@ -129,6 +129,27 @@ footer img.imgFooter{
 	color: #B8B8B8;
 }
 
+.modal-footer .saveCustom{
+	background-color: #64A33D;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.modal-footer .saveCustom:hover{
+	color:#B8B8B8;
+}
+
+.card.customCard{
+	border:0;
+}
+
+.customColor{
+	margin-right: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+	margin-left: 0.5rem;
+}
 /*Modal login end*/
 
 
@@ -182,6 +203,27 @@ footer img.imgFooter{
 #detailBirth{
   background-color: #fff;
   border: 0;
+}
+
+.btnGender{
+	color: black;
+	font-size: 18px;
+}
+
+.btnGender:hover{
+	color: #64A33D;
+	text-decoration: none;
+}
+
+.modal-content.customModal{
+	padding-top: 5px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 20px;
+}
+
+h6.customTitle{
+	color:#64A33D;
 }
 
 @media screen and (max-width: 767px) {

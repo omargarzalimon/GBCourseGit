@@ -57,7 +57,7 @@
 		      	</li>
 		    </ul>
 		    <div class="logBtn">
-		    	<button type="button" class="btn btn-link pr-0">My Account</button>
+		    	<button type="button" class="btn btn-link pr-0" data-toggle="modal" data-target=".bd-example-modal-lg">My Account</button>
 		    </div>
 		    <!-- <div class="logBtn">
 		    	<button type="button" class="btn btn-link" data-toggle="modal" data-target="#loginModal">Log In</button>
@@ -84,7 +84,7 @@
 						  	
 						  </div>
 						  <div class="card-img-overlay">
-						  	<img class="mx-auto w-100" src="img/profile/cintaHombre.png">
+						  	<img class="mx-auto w-100" src="img/profile/cintaHombre2.png">
 						  	
 						  </div>
 						  
@@ -254,9 +254,82 @@
 	</div>
 </footer>
 
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
+
+<div class="modal fade bd-example-modal-lg p-0" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content customModal">
+      	<div class="modal-header p-0 d-flex align-items-center mb-3">
+        		<!-- <img class="mx-auto" src="img/logoLogin.png"> -->
+        		<div class="row w-100  align-items-center mx-auto pb-1">
+        			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        				<h6 class="float-left m-0 customTitle">CUSTOMIZE</h6>
+        			</div> 
+		        	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center">
+		        		<button type="button" onclick="changeGenderW();" class="btn btn-link btnGender font-weight-bold">WOMAN</button>
+						<button type="button" onclick="changeGenderM();" class="btn btn-link btnGender font-weight-bold">MAN</button>
+		        	</div>
+		        	<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+		        			<h6 class="float-right m-0 customTitle">@OGLimon</h6>
+		        	</div>
+        		</div>
+        		
+			
+      	</div>
+      		<div class="modal-body text-center p-0">
+      			<div class="row content  d-flex align-items-center">
+      				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	    				<h5 class="font-weight-bold">Skin tone</h5>
+		    			<a onclick="changeSkin1();"><img src="img/custom/skin1.png" class="img-responsive customColor" alt="Image"></a>
+		    			<a onclick="changeSkin2();"><img src="img/custom/skin2.png" class="img-responsive customColor" alt="Image"></a>
+		    			<a onclick="changeSkin3();"><img src="img/custom/skin3.png" class="img-responsive customColor" alt="Image"></a>
+		    			<h5 class="font-weight-bold">Hair tone</h5>
+		    			<a onclick="changeHair1();"><img src="img/custom/yellow.png" class="img-responsive customColor" alt="Image"></a>
+		    			<a onclick="changeHair2();"><img src="img/custom/red.png" class="img-responsive customColor" alt="Image"></a>
+		    			<a onclick="changeHair3();"><img src="img/custom/brown.png" class="img-responsive customColor" alt="Image"></a>
+		    			<a onclick="changeHair4();"><img src="img/custom/black.png" class="img-responsive customColor" alt="Image"></a>
+    			
+	    			</div>
+	    			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	    				<div class="card customCard">
+							<img class="card-img" src="img/custom/smoke.png">
+							<div class="card-img-overlay">
+								<img id="imgAvatarCustom" style="width: 80%" src="img/custom/customWoman/MP1ASL.png">
+							</div>
+							<div class="card-img-overlay">
+								<img id="imgAvatarCustom" style="width: 80%" src="img/custom/customWoman/whiteBelt.png">
+							</div>
+							
+							<!-- <div class="card-img-overlay">
+								<img style="width: 50%" src="img/custom/prueba.png">
+							</div> -->
+							  
+						</div>
+	    				<!-- <img style="width: 50%" src="img/custom/prueba.png"> -->
+	    			</div>
+	    			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+	    				<!-- <button type="button" class="btn mx-auto">Save Avatar</button> -->
+	    				<h5 class="font-weight-bold">Glasses</h5>
+		    			<a onclick="changeGlasses2();"><img src="img/custom/glasses.png" class="img-responsive customColor" alt="Image"></a>
+		    			<a onclick="changeGlasses1();"><img src="img/custom/noGlasses.png" class="img-responsive customColor" alt="Image"></a>
+	    			</div>
+      			</div>
+    			
+      		</div>
+      		<div class="modal-footer w-100 mx-auto py-0">
+      			<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left p-0">
+      				<button type="button" class="btn btn-link">Sign Up</button>
+      			</div> -->
+      			<img src="img/custom/logoGBCustom.png" class="img-responsive mr-auto" alt="Image">
+      			<button type="button" class="btn py-2 px-3 saveCustom">Save</button>
+      		</div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Modals -->
-<div class="modal fade " id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
   	<div class="modal-dialog modal-dialog-centered" role="document">
     	<div class="modal-content rounded-0">
       		<div class="modal-header border-bottom-0">
@@ -448,5 +521,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/prueba.js"></script>
+<script type="text/javascript" src="js/customAvatarJS.js"></script>
 </body>
 </html>
