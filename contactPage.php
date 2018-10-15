@@ -76,7 +76,8 @@ div.midiv1{
   
   <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-12"><img class="card-img " src="img/contact_header.png" alt="Card image">
+    <div class="col-sm-12 text-center">
+      <img class="img-fluid " src="img/contact_header.png" alt="Card image">
     </div>
   </div>
 
@@ -98,10 +99,10 @@ div.midiv1{
       
       <select id="inputState" class=" form-control form-control2"placeholder="Select Your Zone">
         <option selected>Select Your Zone</option>
-        <option>AvInBev Americas</option>
-         <option>AvInBev Americas</option>
-          <option>AvInBev Americas</option>
-           <option>AvInBev Americas</option>
+        <option>ABInBev Americas</option>
+         <option>ABInBev Americas</option>
+          <option>ABInBev Americas</option>
+           <option>ABInBev Americas</option>
       </select>
     </div>
     <div class="form-group col-md-6">

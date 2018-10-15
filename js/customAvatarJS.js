@@ -62,6 +62,7 @@ function changeGenderM(){
 
 function showAvatar(){
 	if(gender == 1){
+		
 		if(skin == 0){
 			if(hair == 0){
 				if(glasses == 0){
@@ -114,6 +115,7 @@ function showAvatar(){
 					$("#imgAvatarCustom").attr('src','img/custom/customWoman/MP2NL.png');
 				}
 			}
+
 		} else if(skin == 2){
 			if(hair == 0){
 				if(glasses == 0){
@@ -141,7 +143,9 @@ function showAvatar(){
 				}
 			}
 		}
+		$("#imgBeltCustom").attr('src','img/custom/customWoman/whiteBelt.png');
 	}else if (gender == 0){
+		
 		if(skin == 0){
 			if(hair == 0){
 				if(glasses == 0){
@@ -221,6 +225,7 @@ function showAvatar(){
 				}
 			}
 		}
+		$("#imgBeltCustom").attr('src','img/custom/customMan/whiteBeltMan.png');
 	}
 	
 }
